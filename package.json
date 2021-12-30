@@ -1,0 +1,30 @@
+{
+  "name": "email-notifications-using-aws-ses",
+  "version": "1.0.0",
+  "description": "Deliver email notifications using the AWS Simple Email Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishwarya2295/email-notifications-using-aws-ses.git"
+  },
+  "keywords": [
+    "aws",
+    "ses",
+    "email",
+    "notifications"
+  ],
+  "author": "aishwarya kudalkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aishwarya2295/email-notifications-using-aws-ses/issues"
+  },
+  "homepage": "https://github.com/aishwarya2295/email-notifications-using-aws-ses#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1048.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6"
+  }
+}
