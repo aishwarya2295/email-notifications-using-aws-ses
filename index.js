@@ -3,8 +3,8 @@ var ejs = require('ejs');
 
 async function sendEmailNotifications() {
     // Initialize the email parameters
-    const sender = "aishwarya_kudalkar@persistent.com";
-    const recipient = "aishwarya_kudalkar@persistent.com";
+    const sender = "abc@xyz.com";
+    const recipient = "xyz@abc.com";
     const subject = " Amazon SES Notification Demo";
 
     // JSON Object to dynamically populate the HTML email Template
